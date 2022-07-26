@@ -22,6 +22,9 @@ namespace  Day13GenericProblem
             GenericMaximum<int> generic = new GenericMaximum<int>(intArray);
             generic.PrintMaxValue();
 
+            GenericRefactor2<int> generic2 = new GenericRefactor2<int>(123, 146, 146);
+            generic2.MaxMethod();
+
 
 
 
